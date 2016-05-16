@@ -1,6 +1,7 @@
 source 'https://rubygems.org/'
 
 gemspec
+gem 'puma'
 
 local_gemfile = File.join(File.dirname(__FILE__), "Gemfile.local")
 if File.exist?(local_gemfile)
